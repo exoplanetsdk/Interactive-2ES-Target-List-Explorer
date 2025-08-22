@@ -1,0 +1,11 @@
+name: 2es-minimal
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - plotly
+  - openpyxl  # For Excel reading
+  - ipywidgets>=7.6  # For FileDownload widget
+  - voila  # Required for voila rendering
